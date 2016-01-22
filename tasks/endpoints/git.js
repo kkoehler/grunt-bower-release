@@ -78,7 +78,7 @@ function Git(grunt, async) {
     /* Add the array of files into the repository, relative to the CWD */
     add: function(files, done) {
       
-      var args = ['add', '--all];
+      var args = ['add', '--all'];
       grunt.verbose.writeln('git ' + args.join(' '));
       grunt.util.spawn({
           cmd: 'git',
